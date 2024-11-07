@@ -12,7 +12,7 @@ struct OnboardingView: View {
   var body: some View {
       NavigationStack(path: $pathModel.paths) {
 //          OnboardingContentView(onboardingViewModel: onboardingViewModel)
-          TimerView()
+          SettingView()
 //              .environmentObject(memoListViewModel)
               .navigationDestination(
                 for: PathType.self,
